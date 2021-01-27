@@ -40,6 +40,8 @@ cd ./active_ap # For Active Access Point
 cd ./passive # For Passive CSI collection
 ```
 
+* With active_sta, note that the ip that you want to ping to get CSI must be modified in *socket_component.h*.
+
 We can now begin configuring and flashing your ESP32.
 
 ## Configuration (ESP-IDF)
